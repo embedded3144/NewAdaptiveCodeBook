@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace SolidRating
 {
-
     public class Policy
     {
         public PolicyType Type { get; set; }
