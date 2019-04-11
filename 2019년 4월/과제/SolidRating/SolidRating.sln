@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidRating", "SolidRating\SolidRating.csproj", "{B0559512-C024-4013-BBF9-E24208AEC064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolidRating.Tests", "SolidRating.Tests\SolidRating.Tests.csproj", "{4C0B2E1A-3CE9-4B33-81B4-E92A8975CEDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0559512-C024-4013-BBF9-E24208AEC064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0559512-C024-4013-BBF9-E24208AEC064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0559512-C024-4013-BBF9-E24208AEC064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0559512-C024-4013-BBF9-E24208AEC064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C0B2E1A-3CE9-4B33-81B4-E92A8975CEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C0B2E1A-3CE9-4B33-81B4-E92A8975CEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C0B2E1A-3CE9-4B33-81B4-E92A8975CEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C0B2E1A-3CE9-4B33-81B4-E92A8975CEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10127C94-A0A6-4026-BDA1-238B899FEFE9}
+	EndGlobalSection
+EndGlobal
