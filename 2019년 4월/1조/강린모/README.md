@@ -10,3 +10,11 @@
 - 테스트는 요구사항 명세서다.
 
 아침이 밝는구나.
+
+```plantuml
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+
+Alice -> Bob: Another authentication Request
+Alice <-- Bob: another authentication Response
+```
