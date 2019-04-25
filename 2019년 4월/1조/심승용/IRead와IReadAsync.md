@@ -86,7 +86,7 @@ IRead <|-down- ReadJS
 ~~~plantuml
 @startuml
 class VisualStudio
-package "Mirero.Read2" #FFDDDD {
+package "Mirero.Read" #FFDDDD {
 interface IRead 
 {
     Read()
@@ -112,18 +112,12 @@ IRead <|-down- ReadCpp
 IRead <|-down- ReadJS
 @enduml
 ~~~
-- 새로 만들어진 Mirero.Read 패키지는 기존 Notepad에서 사용 할 수 없습니다. 
+- 새로 만들어진 Mirero.Read 패키지는 기존 Notepad에서 사용 수 있습니다.
 ~~~plantuml
 @startuml
 class Notepad
-package "Mirero.Read" #DDDDDD {
+package "Mirero.Read" #FFDDDD {
 interface IRead
-{
-    Read()
-}
-}
-package "Mirero.Read2" #FFDDDD {
-interface Mirero.Read2.IRead
 {
     Read()
     -ReadAsync()
@@ -139,7 +133,7 @@ Notepad -right-> IRead
 @startuml
 class Notepad
 class VisualStudio
-package "Mirero.Read" #DDDDDD {
+package "Mirero.Read" #DDFFDD {
 interface IRead 
 {
     Read()
