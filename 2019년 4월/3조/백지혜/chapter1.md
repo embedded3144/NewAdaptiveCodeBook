@@ -41,7 +41,7 @@
 
    - 좋은 기술부채와 나쁜 기술부채
    - 기술부채의 사분면<br>
-     ![img](https://mblogthumb-phinf.pstatic.net/20150211_170/muchine98_1423619260300JtnY0_PNG/techDebtQuadrant.png?type=w2)
+      <img src="./Image/Chapter01/2019042501.JPG" width="600"/>
 
 5. 디지털 스크럼 보드
 
