@@ -22,7 +22,7 @@
 - 제품 백로그는 대기 중인 스토리를 우선순위에 근거하여 나열
 - 각 스프린트는 해당 기간에 개발하게 될 스토리에 의해 정의 
 
-<img src="./images/sprintProcess.png" height=300>
+<img src="./images/sprintProcess.png" height=408>
 
 
 
@@ -50,7 +50,7 @@
 
 ## 스크럼 vs. 폭포수 
 
-<img src="./images/AgileVsWaterfall4.png" height=300>
+<img src="./images/AgileVsWaterfall4.png" height=408>
 
 - **폭포수 방식의 문제점 : 너무 엄격**
 
@@ -147,7 +147,7 @@
 
 
 
-<img src="./images/돼지와닭.png" height=300>
+<img src="./images/pig.png" height=300>
 
 ```
 닭 : 돼지야, 너 나랑 식당 같이 해볼래?
