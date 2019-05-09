@@ -10,12 +10,12 @@
 #### 스크럼 보드
 
 1. 스크럼보드: 현재 개발이 진행 중인 상태에 대한 스냅샷<br>
-   ![ì¤í¬ë¼ ë³´ëì ëí ì´ë¯¸ì§ ê²ìê²°ê³¼](https://cdn-images-1.medium.com/max/660/0*PGugA3fWrbwMtj6x.png)
+   <img src="../Image/Chapter01/1-1.jpg" width="70%"/>
 
 2. 카드: 아주 작은 태스크로부터 물리적인 소프트웨어의 릴리즈에 이르기까지 소프트웨어 제춤의 진도를 나타내는 개별적인 요소를 표현
 
    - > ##### 구성의 계층구조
-     > <img src="./Image/Chapter01/1556152371370.png" alt="drawing" width="600"/>
+     > <img src="../Image/Chapter01/1-2.png" width="70%"/>
      >
      > - 제품
      > - 릴리즈: ex) 구글 크롬 브라우저 작은크기의 릴리즈들이 아무런 표시 없이 데스크톱에 끊임없이 배포
@@ -30,7 +30,7 @@
      >   행위오류: 아주 심각하지는 않지만 사용자의 짜증을 유발<br>
      >   표현이슈: 주로 사용자의 인터페이스에서 발생하는 문제<br>
 
-3.  스윔레인: 스토리 보드에는 스윔레인을 구분하기 위해 수직으로 선
+3. 스윔레인: 스토리 보드에는 스윔레인을 구분하기 위해 수직으로 선
 
    - 특징
      - 왼쪽에서 오른쪽 방향으로 이동
@@ -41,7 +41,7 @@
 
    - 좋은 기술부채와 나쁜 기술부채
    - 기술부채의 사분면<br>
-      <img src="./Image/Chapter01/2019042501.JPG" width="600"/>
+      <img src="../Image/Chapter01/1-3.jpg" width="70%"/>
 
 5. 디지털 스크럼 보드
 
@@ -64,12 +64,12 @@
    - 스프린트 시작 시점: 스프린트 번다운 차트
    - 직선: 스프린트 목표에 대한 최적선
 
-![ì¤íë¦°í¸ ë²ë¤ì´ ì°¨í¸ì ëí ì´ë¯¸ì§ ê²ìê²°ê³¼](https://t4.daumcdn.net/thumb/R720x0/?fname=http://t1.daumcdn.net/brunch/service/user/2G1Q/image/sHSwD6MvJRxUFn_ENWgEsuNoQW0)
+<img src="../Image/Chapter01/1-4.jpg" width="70%"/>
 
 4. 기능 번업 차트
    - 기능들의 완료도 표시
    - 그래프에 표시되지 않은 채 기능이 완료된 것처럼 눈속임 불가
-   - <img src="https://spin.atomicobject.com/wp-content/uploads/20160211143526/burn-up_chart.png" alt="drawing" width="600"/>
+   - <img src="../Image/Chapter01/1-5.jpg" width="70%"/>
 
 #### 백로그: 아직 시작되지 않은 대기 작업들의 목록
 
@@ -116,9 +116,7 @@
 
    - 종료: 각 스토리에 할당된 포인트릐 총합이 팀이 한 스프린트 내에 완료할 수 있는 속도 점수에 도달할 때까지 반복
 
-   - ###### ![í¼ë³´ëì¹ ì"ìì ì¤í ë¦¬ í¬ì¸í¸ë¡ ì¤í¬ë¼ íë¡ì í¸ì ëì ì¶ì íê¸°](https://i.popularhowto.com/img/careers-2018/estimating-end-of-scrum-projects-with-fibonacci-numbers-and-story-points.jpg)
-
-   - ![img](https://i.popularhowto.com/img/careers-2018/estimating-end-of-scrum-projects-with-fibonacci-numbers-and-story-points-2.jpg)
+   - ###### <img src="../Image/Chapter01/1-6.jpg" width="70%"/>
 
 3. 상대예측
    - 작업할 스토리에 개수가 많은 경우 투입해야 할 시간의 양을 예상하는 방법                                                                               
@@ -149,7 +147,7 @@
      > - 스프린트를 진행하는 동안 팀의 분위기를 보여주는 바로미터를 제공
      >
      > - 예시<br>
-     >   ![image032_s.png](http://www.omnibuscode.com/board/files/attach/images/372/161/035/abf6cf1abcc581bcb23125d1ba3f7c95.png)
+     >   <img src="../Image/Chapter01/1-7.jpg" width="70%"/>
      >
      >   
 
@@ -176,12 +174,12 @@
 2. 스토리 포인트 삼각법
    - 개념: 가상의 프로젝트에 예상 스토리 포인트 대비 실제로 투입된 노력의 평균, 최소, 최대값
    - 예시<br>
-     <img src="./Image/Chapter01/1556150566207.png" alt="drawing" width="600"/>
+     <img src="../Image/Chapter01/1-8.png" width="70%"/>
 
 
 
 #### 스크럼 일정표
 
-<img src="./Image/Chapter01/1556151008538.png" alt="drawing" width="600"/>
+<img src="../Image/Chapter01/1-9.png" width="70%"/>
 
 스프린트 양도일: 스프린트를 끝낼때와 새로운 스프린트를 시작할 때는 거의 하루종일 회의가 이루어짐.
