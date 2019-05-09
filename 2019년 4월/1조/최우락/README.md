@@ -10,6 +10,8 @@
 - 테스트는 요구사항 명세서다.
 
 c#으로 배우는 적응형코드 
+
 [2장 - 의존성과 계층화](https://blog.naver.com/firstmeyou/221520576650)
+
 [3장 - 인터페이스와 디자인 패턴](https://blog.naver.com/firstmeyou/221531243147)
 
