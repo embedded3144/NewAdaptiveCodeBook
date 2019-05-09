@@ -1,5 +1,4 @@
 
-
 # Chapter2 
 
 ### 2. 의존성 관리하기
@@ -19,14 +18,14 @@
 
 
 2. 예시
-   - <img src="../Image/Chapter02/2-1.webp" width="70%"/>
+   - <img src="../Image/Chapter02/2-1.jpg" width="70%"/>
    - 인터페이스의 구현이 인터페이스 자체와 동일한 어셈블리에 존재
    - 묵시적 의존성이 존재
    - bin 디렉토리에서 NHibernate 관련 어셈블리 발견
 3. 실습(01. Entourage anti-pattern)
-   - <img src="../Image/Chapter02/2-2.jpg" width="70%"/>
+   - <img src="../Image/Chapter02/2-2.JPG" width="70%"/>
    - AccountController Build 시 bin폴더
-     - <img src="../Image/Chapter02/2-3.jpg" width="70%"/><br>
+     - <img src="../Image/Chapter02/2-3.JPG" width="70%"/><br>
      - Domain.dll 발견 => [+묵시적 의존성+]
 
 4. 문제점
@@ -43,16 +42,16 @@
 
 2. 예제
 
-   - <img src="../Image/Chapter02/2-4.webp" width="70%"/>
+   - <img src="../Image/Chapter02/2-4.jpg" width="70%"/>
 
    - 각 클래스는 자신이 의존하는 인터페이스가 정의된 어셈블리만을 참조
    - 인터페이스는 어떠한 외부 의존성도 가져서는 안됨.
 
 3. 실습(02. Stairway pattern)
 
-   - <img src="../Image/Chapter02/2-5.jpg" width="70%"/>
+   - <img src="../Image/Chapter02/2-5.JPG" width="70%"/>
    - AccountController Build 시 bin폴더
-     - <img src="../Image/Chapter02/2-6.jpg" width="70%"/>
+     - <img src="../Image/Chapter02/2-6.JPG" width="70%"/>
      - ServiceInterface dll만 참조
      - Controller와 Service 독립적으로 관리
 
@@ -69,7 +68,7 @@
 
    - 해석 프로세스: 프로젝트나 어셈블리에 추가된 참조와 이 어셈블리들을 로드하여 실행되는 애플리케이션 사이의 간극을 메우는 역할
 
-     - <img src="../Image/Chapter02/2-7.webp" width="70%"/>
+     - <img src="../Image/Chapter02/2-7.jpg" width="70%"/>
 
        > **해석프로세스**
        >
@@ -101,10 +100,10 @@
 
    - **알려진 종단점**(클라이언트 코드에 서비스 프록시 객체 생성)
 
-   > - 서비스 참조 추가
-   >   <img src="../Image/Chapter02/2-8.jpg" width="70%"/>
+   > - 서비스 참조 추가<br>
+   >   <img src="../Image/Chapter02/2-8.JPG" width="70%"/>
    >
-   >   <img src="../Image/Chapter02/2-9.jpg" width="70%"/>
+   >   <img src="../Image/Chapter02/2-9.JPG" width="70%"/>
    >
    > - 서비스 프록시 직접 구현
    >   System.ServiceModel.dll 추가
@@ -168,18 +167,18 @@
      - ApiController 상속
      - HTTP 동사 지원
      - Client와 Server 간의 의존성이 줄어 든다.
-     - <img src="../Image/Chapter02/2-11.jpg" width="70%"/>
-     - <img src="../Image/Chapter02/2-10.jpg" width="70%"/>
+     - <img src="../Image/Chapter02/2-11.JPG" width="70%"/>
+     - <img src="../Image/Chapter02/2-10.JPG" width="70%"/>
 
 #### Nuget을 이용한 의존성 관리
 
 1. 패키지 사용하기
 
-   - <img src="../Image/Chapter02/2-12.jpg" width="70%"/>
+   - <img src="../Image/Chapter02/2-12.JPG" width="70%"/>
 
    - package 폴더
 
-     - <img src="../Image/Chapter02/2-13.jpg" width="70%"/>
+     - <img src="../Image/Chapter02/2-13.JPG" width="70%"/>
 
    - App.config
 
@@ -202,13 +201,13 @@
 
 #### 계층화
 
-1. 두개의 계층
-   <img src="../Image/Chapter02/2-14.webp" width="70%"/>
+1. 두개의 계층<br>
+   <img src="../Image/Chapter02/2-14.jpg" width="70%"/>
    - UserInterface: UI, 유효성 검사
    - DataAccess: 데이터 질의
 
-2. 세개의 계층
-   <img src="../Image/Chapter02/2-15.webp" width="70%"/>
+2. 세개의 계층<br>
+   <img src="../Image/Chapter02/2-15.jpg" width="70%"/>
    - 비즈니스 로직: 규칙, 흐름
 
 #### 횡단 관심사
@@ -270,7 +269,7 @@
 
             - Read와 Update 분리
 
-            - <img src="../Image/Chapter02/2-16.webp" width="70%"/>
+            - <img src="../Image/Chapter02/2-16.jpg" width="70%"/>
 
               
 
