@@ -51,7 +51,7 @@ PC 메신저 자체 만으로도 수많은 의존성을 갖고 있을 것이다.
 
     ```mermaid
     graph LR
-    A["(PC Messenger)<br/>Client"]--의존적-->B["(G/W Server)<br/>Service"]
+    A["Client(PC Messenger)"]--의존적-->B["Service(G/W Server)"]
     ```
 
     [그림 1 - 의존도]  
