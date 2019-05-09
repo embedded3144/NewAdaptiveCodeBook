@@ -36,7 +36,7 @@ public class A : IInterfaceA, IInterfaceB
 - 한 타입의 객체를 암묵적으로 다른 타입의 객체처럼 동작하도록 사용하는 방법을 다형성(polymorphism)이라고 한다.
 - 클라이언트 코드는 실제로는 다른 타입의 객체인 것을 자신이 원하는 특정 객체인 것처럼 처리할 수 있다.
 
-> 객체지향 특성 : 추상화, 캡슐화, 상속, 다형성, 은닉 ...
+> ★ 객체지향 특성 : 추상화, 캡슐화, 상속, 다형성, 은닉 ...
 
 ## 2. 적응형 디자인 패턴
 
@@ -311,8 +311,55 @@ namespace MySystem
 
 ```
 
-### 3-2. 능동형 인터페이스
+### 3-2. 능동형 인터페이스 (Fluent Interface)
 
 - 인터페이스가 능동적(fluent)으로 동작하기 위해서는 하나 혹은 그 이상의 정의된 메서드들이 인터페이스 자신을 리턴해야한다.(`return this;`) 
 - 메서드를 연결하여 호출할 수 있다.
 
+```cs
+    public interface IFluentInterface
+    {
+        IFluentInterface FluentA();
+        IFluentInterface FleuntB();
+        IFluentInterface FleuntC();
+        void ThisMethodIsNotFluent();
+    }
+
+    public class FluentImplementation : IFluentInterface
+    {
+        public IFluentInterface FleuntB()
+        {
+            return this;
+        }
+
+        public IFluentInterface FleuntC()
+        {
+            return this;
+        }
+
+        public IFluentInterface FluentA()
+        {
+            return this;
+        }
+
+        public void ThisMethodIsNotFluent()
+        {
+            
+        }
+    }
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            IFluentInterface fluent = new FluentImplementation();
+
+            fluent.FluentA()
+                .FleuntB()
+                .FleuntC()
+                .FluentA()
+                .FleuntB()
+                .ThisMethodIsNotFluent();
+        }
+    }
+```
