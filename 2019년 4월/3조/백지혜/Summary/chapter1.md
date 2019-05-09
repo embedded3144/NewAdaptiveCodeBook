@@ -10,7 +10,7 @@
 #### 스크럼 보드
 
 1. 스크럼보드: 현재 개발이 진행 중인 상태에 대한 스냅샷<br>
-   <img src="../Image/Chapter01/1-1.jpg" width="70%"/>
+   <img src="../Image/Chapter01/1-1.JPG" width="70%"/>
 
 2. 카드: 아주 작은 태스크로부터 물리적인 소프트웨어의 릴리즈에 이르기까지 소프트웨어 제춤의 진도를 나타내는 개별적인 요소를 표현
 
@@ -41,7 +41,7 @@
 
    - 좋은 기술부채와 나쁜 기술부채
    - 기술부채의 사분면<br>
-      <img src="../Image/Chapter01/1-3.jpg" width="70%"/>
+      <img src="../Image/Chapter01/1-3.JPG" width="70%"/>
 
 5. 디지털 스크럼 보드
 
@@ -64,12 +64,12 @@
    - 스프린트 시작 시점: 스프린트 번다운 차트
    - 직선: 스프린트 목표에 대한 최적선
 
-<img src="../Image/Chapter01/1-4.jpg" width="70%"/>
+<img src="../Image/Chapter01/1-4.JPG" width="70%"/>
 
 4. 기능 번업 차트
    - 기능들의 완료도 표시
    - 그래프에 표시되지 않은 채 기능이 완료된 것처럼 눈속임 불가
-   - <img src="../Image/Chapter01/1-5.jpg" width="70%"/>
+   - <img src="../Image/Chapter01/1-5.JPG" width="70%"/>
 
 #### 백로그: 아직 시작되지 않은 대기 작업들의 목록
 
@@ -116,7 +116,7 @@
 
    - 종료: 각 스토리에 할당된 포인트릐 총합이 팀이 한 스프린트 내에 완료할 수 있는 속도 점수에 도달할 때까지 반복
 
-   - ###### <img src="../Image/Chapter01/1-6.jpg" width="70%"/>
+   - ###### <img src="../Image/Chapter01/1-6.JPG" width="70%"/>
 
 3. 상대예측
    - 작업할 스토리에 개수가 많은 경우 투입해야 할 시간의 양을 예상하는 방법                                                                               
@@ -147,7 +147,7 @@
      > - 스프린트를 진행하는 동안 팀의 분위기를 보여주는 바로미터를 제공
      >
      > - 예시<br>
-     >   <img src="../Image/Chapter01/1-7.jpg" width="70%"/>
+     >   <img src="../Image/Chapter01/1-7.JPG" width="70%"/>
      >
      >   
 
