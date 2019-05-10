@@ -50,7 +50,7 @@
 
    - <img src="../Image/Chapter02/2-5.JPG" width="70%"/>
    - AccountController Build 시 bin폴더
-     - <img src="../Image/Chapter02/2-6.JPG" width="70%"/>
+     - <img src="../Image/Chapter02/2-6.jpg" width="70%"/>
      - ServiceInterface dll만 참조
      - Controller와 Service 독립적으로 관리
 
