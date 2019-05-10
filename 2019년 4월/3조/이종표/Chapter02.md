@@ -152,5 +152,47 @@ public class AccountController
 
 ### 의존성 주입 기법 활용하기 
 
+```csharp
+public class AccountController
+{
+    private readonly ISecurityService securityService;
+
+    public AccountController(ISecurityService securityService)
+    {
+        if (securityService == null) throw new ArgumentNullException("securityService");
+
+        this.securityService = securityService;
+    }
+
+    [HttpPost]
+    public void ChangePassword(Guid guid, string newPassword)
+    {
+        securityService.ChangeUsersPassword(user, newPassword);
+    }
+}
+```
+
+
+
+- securityService를 직접 생성하는 대신, 다른 클래스에게 ISecurityService 인터페이스를 구현한 객체를 제공해 줄 것을 요구
+- 의존성이 완전히 제거됨
+
+```csharp
+publiic class SecurityService : ISecurityService
+{
+	private SecurityService(IUSerRepository userRepository)
+    {
+    	if (userRepository == null) throw new ArgumentNullException("userRepository");
+        this.userRepository = userRepository;
+    }
+
+	public ChangeUsersPassword()
+    {
+    	var user = userRepository.GetByID(userID);
+        user.ChangePassword(newPassword);
+    }
+}
+```
+
 
 
