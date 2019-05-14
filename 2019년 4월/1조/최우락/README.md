@@ -15,3 +15,5 @@ c#으로 배우는 적응형코드
 
 [3장 - 인터페이스와 디자인 패턴](https://blog.naver.com/firstmeyou/221531243147)
 
+[4장 - 단위테스트와 리팩토링](https://blog.naver.com/firstmeyou/221536778882)
+
